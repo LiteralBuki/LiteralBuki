@@ -1,0 +1,48 @@
+.seguraPostagem {
+    display: flex;
+    width: 40rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.postagem {
+    display: flex;
+    flex-direction: column;
+}
+
+.areaImagem {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    background-color: #042A3F;
+    margin-right: 3rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    align-items: center;
+}
+
+.iconImagem {
+    font-size: 3rem;
+}
+
+.titulo {
+   font-family: "Prata", sans-serif;
+   color:#042A3F;
+   font-size: 2.8rem;
+   font-weight: 400;
+   margin-bottom: 1.5rem;
+} 
+
+.paragrafo {
+    font-family: "Poppins", sans-serif;
+    color: #a57a1a;
+    font-size: 2rem;
+    font-weight: 300;
+} 
+
+.paragrafoForte {
+    font-weight: 600;
+}

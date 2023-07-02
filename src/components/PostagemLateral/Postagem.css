@@ -1,0 +1,89 @@
+.postagem {
+    background-color: #fff;
+    box-shadow: 0 .5rem .5rem #6c097ea6;
+    margin: 0 auto;
+    max-height: 40rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 80%;
+    min-width: 15rem;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    overflow: hidden;
+}
+
+.postagem:hover {
+    box-shadow: 0 .5rem .5rem #ab10c7fb;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 85%;
+    cursor: pointer;
+}
+
+
+.postagem h2 {
+    color: #042A3F;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem .5rem;
+}
+
+.postagem .imagem {
+    width: 100%;
+}
+
+.postagem p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+
+}
+
+@media (max-width: 1000px) {
+    .postagem img {
+        width: 100%;
+        display: none;
+    }
+
+    .postagem {
+        /* border: .1rem solid #6c097e; */
+        box-shadow: 0 .5rem .5rem #40074670;
+        margin-bottom: 2.5rem;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .postagem {
+        max-height: 23rem;
+        overflow: hidden;
+    }
+
+    .postagem h2 {
+        color: #042A3F;
+        font-family: "Lato", sans-serif;
+        font-size: 1.4rem;
+        padding: 1rem .5rem;
+    }
+    
+    .postagem p {
+        font-family: "Lato", sans-serif;
+        font-size: 1.4rem;
+        padding: 1rem .5rem;
+    
+    }
+    
+}

@@ -1,0 +1,69 @@
+.conteiner {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: inherit;
+    box-shadow: 0 .4rem .8rem rgba(0, 0, 0, 0.4);
+    margin-top: .5rem;
+    border-bottom: solid .2rem #8886E7;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.conteiner:hover {
+    background: #bcb7ff;
+}
+
+.areaPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.areaSecundaria {
+    display: flex;
+    align-items: center;
+}
+
+.areaSecundaria p {
+    font-size: 1.6rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner .areaPrincipal h2 {
+    font-size: 1.8rem;
+    font-style: bold;
+    margin-bottom: .5rem;
+    padding-right: .3rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.conteiner .areaPrincipal .acao {
+    font-size: 1.5rem;
+    opacity: 60%;
+}
+
+.conteiner .areaSecundaria .verMais {
+    border-bottom: solid .1rem #8886E7;
+    cursor: pointer;
+    color: #8886E7;
+}
+
+.conteiner .areaSecundaria .verMais:hover {
+    color: #6260cc;
+}
+
+.tempo {
+    font-size: 1.4rem;
+    opacity: 60%;
+    margin-top: .5rem;
+}
